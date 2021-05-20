@@ -239,14 +239,14 @@ export default class News extends Component {
     
 
     render() {
-        let mapped = this.state.news.map(story=> <Article {...story}/>)
+        let articles = this.state.news.map(story=> <Article {...story}/>)
         return (
             <div style={{ }}>
                 <p className='LeftTitle'>
                     News
                 </p>
-                <div style={{ overflowY: 'scroll', maxHeight: window.innerHeight -200}}>
-                    {mapped}
+                <div style={{ overflowY: 'scroll', maxHeight: window.innerHeight -250}}>
+                    {articles}
                 </div>
             </div>
         );
