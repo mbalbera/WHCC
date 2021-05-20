@@ -17,7 +17,7 @@ This is a React project built for the William Hill code challenge.
 4.  Media Queiries for mobile styling
 
 ## My thinking through this projcet
-As a team you want to do a few things:
+As a sports team you want to do a few things:
 1. Let your fans show you care about them. I did this by highlighting the fan art, if fans take the time to make stuff about the team we should celebrate that and encourage more of it.
 2. Understand where the sports industry going and highlight sports gambling. This is a delicate balance because you need to consider kids and non-gambling fans who may not be interested.
 3. Make it fun! I tried to accomplish this with the Whose Hot section. It could be relevant and timely information but it also gives people a reason to check the site and see who is doing well if you haven't been watching every pitch.
