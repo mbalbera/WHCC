@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import MainContainer from './containers/MainContainer'
-import HeaderContainer from './containers/HeaderContainer'
+import MainContainer from './components/MainContainer'
+import HeaderContainer from './components/HeaderContainer'
 import React from 'react';
 import Footer from './components/Footer';
 
@@ -26,7 +26,8 @@ class App extends React.Component{
 
 
   render(){
-    if(this.state.data === 'loading'){
+    const {data} = this.state
+    if(data === 'loading'){
       return(
         <div>
           <h2>Loading...</h2>
@@ -34,13 +35,15 @@ class App extends React.Component{
       )
     }
     else{
+      
+      let fanArt = [{imgURL:data.strTeamFanart1,author:'Andrew'}, {imgURL:data.strTeamFanart2,author:'Peter'}, {imgURL:data.strTeamFanart3,author:'Jill'}, {imgURL:data.strTeamFanart4,author:'Jack'}, ]
       return (
         <div className="App">
           <header>
-            <HeaderContainer nameLogo={this.state.data.strTeamLogo} />
+            <HeaderContainer nameLogo={data.strTeamLogo} />
           </header>
-          <MainContainer logo={this.state.data.strTeamBadge} news={this.state.data.strRSS}/>
-          <Footer twtr={this.state.data.strTwitter} fb={this.state.data.strFacebook} insta={this.state.data.strInstagram}/>
+          <MainContainer news={data.strRSS} fanArt={fanArt}/>
+          <Footer twtr={data.strTwitter} fb={data.strFacebook} insta={data.strInstagram}/>
         </div>
       );
     }
