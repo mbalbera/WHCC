@@ -12,19 +12,19 @@ function Footer(props){
                         href={props.insta}
                         target="_blank"
                     >
-                        <FaInstagramSquare size={50} color='rgb(166,168,173)'/>
+                        <FaInstagramSquare size={50} color='#FF5910'/>
                     </a>
                     <a
                         href={props.twtr}
                         target="_blank"
                     >
-                        <FaTwitterSquare size={50} color='rgb(166,168,173)'/>
+                        <FaTwitterSquare size={50} color='#FF5910'/>
                     </a>
                     <a
                         href={props.fb}
                         target="_blank"
                     >
-                        <FaFacebookSquare size={50} color='rgb(166,168,173)'/>    
+                        <FaFacebookSquare size={50} color='#FF5910'/>    
                     </a>                    
                 </div>
         </div>
