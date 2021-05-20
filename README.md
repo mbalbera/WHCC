@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# To Do List
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React project built for the William Hill code challenge.
 
-## Available Scripts
+## Set up
 
-In the project directory, you can run:
+1. Fork Repo
+2. In  terminal: Navigate into the `WHCC`
+3. Run `yarn install && yarn start`
+4. This should open (http://localhost:3000/) 
 
-### `yarn start`
+## Things I would do with more time
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Figure out RSS Feeds (I kept getting a 403 Error trying to fetch the data, but I can go to the actual URL and see the XML)
+2. I would remove any hard coding so this could be viable for any team
+3. I would connect to live APIs for the Wager's section and Whose Hot
+4.  Media Queiries for mobile styling
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## My thinking through this projcet
+As a team you want to do a few things:
+1. Let your fans show you care about them. I did this by highlighting the fan art, if fans take the time to make stuff about the team we should celebrate that and encourage more of it.
+2. Understand where the sports industry going and highlight sports gambling. This is a delicate balance because you need to consider kids and non-gambling fans who may not be interested.
+3. Make it fun! I tried to accomplish this with the Whose Hot section. It could be relevant and timely information but it also gives people a reason to check the site and see who is doing well if you haven't been watching every pitch.
+4. Give the people what they want. Most people are coming to a sports teams website in order to find out what's going on, the news is a MUST. 
