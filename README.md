@@ -14,7 +14,8 @@ This is a React project built for the William Hill code challenge.
 1. Figure out RSS Feeds (I kept getting a 403 Error trying to fetch the data, but I can go to the actual URL and see the XML)
 2. I would remove any hard coding so this could be viable for any team
 3. I would connect to live APIs for the Wager's section and Whose Hot
-4.  Media Queiries for mobile styling
+4. Media Queiries for mobile styling
+5. Improve styling
 
 ## My thinking through this projcet
 As a sports team you want to do a few things:
