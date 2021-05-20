@@ -28,11 +28,167 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.HeaderContainer {
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  clear: both;
+  position:fixed;
+  top:0;
+  background-color:WHITE;
+  padding-left:5%;
+  padding-right:5%;
+  box-shadow:0px 0px 5px 1px #cccccc;
+  z-index: 199;
+}
+
+.HeaderLogo{
+  height: 40px
+}
+
+p {
+  margin:0
+}
+
+.ColumnOne{
+  width: 50%;
+}
+
+.ColumnTwo{
+  width: 45%;
+}
+
+.FlexAndSpaceEven{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+}
+
+.FlexAndSpaceBet{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin:'auto'
+}
+
+.FooterContainer{
+  background-color: 'rgb(33,37,49)';
+  padding: 50;
+
+}
+
+.FooterTitle{
+  color:rgb(166,168,173);
+  font-weight:bold;
+  font-size: 24;
+}
+
+
+.WagerContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: solid .5px #ddd;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.HeaderButton{
+  height: 100%;
+  width: 25%;
+  cursor: pointer;
+}
+
+.MainContainer{
+  margin:auto;
+  margin-top: 100px;
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1200px;
+}
+
+
+.HeaderText {
+  font-size: 22px;
+}
+.HeaderText:hover {
+  font-size: 24px;
+}
+
+.RightCard{
+  width: 80%;
+  background-color: #002D72;
+  padding-left:4%;
+  padding-right:4%;
+  padding-top:1%;
+  padding-bottom:2%;
+  border-radius: 12px;
+  margin:auto;
+  margin-bottom: 20px;
+}
+.RightTitle{
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.LeftTitle{
+  color: #000000;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.RightText{
+  color: #FF5910;
+  font-size: 18px;
+  text-align: left;
+}
+
+.Article{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  border: solid 1px #ddd;
+  border-radius: 12px;
+  padding:5px
+}
+.ArticleTitle{
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+.ArticleText{
+  font-size: 16px;
+  font-weight: bold;
+  text-align: left;
+}
+
+
+.ArticleTitleContainer{
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  width: 100%;
+  border-bottom: solid .5px #ddd;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.TextAlignRight{
+  text-align: right;
+}
+
+.BoldTxt{
+  font-weight: bold;
 }
